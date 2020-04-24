@@ -7,7 +7,7 @@ namespace CriticalThinkingExercise
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-
+            g
 
         }
     }
