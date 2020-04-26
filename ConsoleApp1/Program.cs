@@ -9,7 +9,21 @@ namespace CriticalThinkingExercise
         static void Main(string[] args)
         {
             ForLoops loops = new ForLoops();
-            loops.DisplayForLoop("i");
+
+            //loops.DisplayForLoop("i");
+
+            //loops.PrintIncrement();
+
+            //loops.PrintBack();
+
+            //loops.RunLoop();
+
+            loops.UserLoop();
+
+           
+
+
+
         }
 
     }
