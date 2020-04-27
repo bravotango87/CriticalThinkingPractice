@@ -18,9 +18,17 @@ namespace CriticalThinkingExercise
 
             //loops.RunLoop();
 
-            loops.UserLoop();
+            //loops.UserLoop();
 
+            // loops.ModifyLoop();
+
+            loops.PrintLetter("hello world");
            
+            
+           
+            
+
+
 
 
 

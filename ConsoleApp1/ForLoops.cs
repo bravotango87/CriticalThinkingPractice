@@ -63,16 +63,35 @@ namespace CriticalThinkingExercise
 
         // 5a. Declare a string above the for loop with a value of “Hello World”.
         // 5b. Yooop should run 11 times for each letter in the string.
-        public void ModifyLoop(string word) // string word = "hello world"
+        public void ModifyLoop() // string word = "hello world"
         {
-            for (int i = 0; i < word.Length; i++)
+            string greeting = "Hello World";
+            for (int i = greeting.Length; i < greeting.Length; i++)
             {
-                Console.WriteLine(word[i]);
+                if (i != greeting.Length)
+                {
+                    continue;
+                }
+                Console.WriteLine(greeting);
+               
             }
+
+        // 6. Print out every letter of Hello World one at a time.
         }
 
+        public void PrintLetter(string word) // string word = "hello world"
+        {
+            for(int i = 0; i < word.Length; i++)
+            {
+                Console.WriteLine(word[i]);
+                
+                Console.ReadLine();
+            }
             
+        }
+        
 
-    }
+
+}
 }
 
