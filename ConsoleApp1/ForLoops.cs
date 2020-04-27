@@ -89,6 +89,17 @@ namespace CriticalThinkingExercise
             }
             
         }
+
+
+       // 7. Print out every other letter.
+
+       public void PrintEveryOther(string word)
+        {
+            for(int i = 0; i < word.Length; i = i + 2)
+            {
+                Console.WriteLine(word[i]);
+            }
+        }
         
 
 

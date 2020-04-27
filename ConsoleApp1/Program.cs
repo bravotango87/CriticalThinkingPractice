@@ -22,7 +22,9 @@ namespace CriticalThinkingExercise
 
             // loops.ModifyLoop();
 
-            loops.PrintLetter("hello world");
+            //loops.PrintLetter("hello world");
+
+            loops.PrintEveryOther("hello world");
            
             
            
