@@ -100,6 +100,16 @@ namespace CriticalThinkingExercise
                 Console.WriteLine(word[i]);
             }
         }
+
+     // 8. Only print numbers / by 3.
+
+        public void DivideByThree(string word)
+        {
+             for(int i = 0; i < word.Length; i = i + 3)
+            {
+                Console.WriteLine(word[i]);
+            }
+        }
         
 
 

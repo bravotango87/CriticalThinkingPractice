@@ -24,8 +24,9 @@ namespace CriticalThinkingExercise
 
             //loops.PrintLetter("hello world");
 
-            loops.PrintEveryOther("hello world");
-           
+            //loops.PrintEveryOther("hello world");
+
+            loops.DivideByThree("hello world");
             
            
             
