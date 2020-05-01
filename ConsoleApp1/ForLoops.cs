@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading;
 
 namespace CriticalThinkingExercise
 {
@@ -62,18 +64,29 @@ namespace CriticalThinkingExercise
         }
 
         // 5a. Declare a string above the for loop with a value of “Hello World”.
-        // 5b. Loop should run 11 times for each letter in the string.
+        // 5b. Yooop should run 11 times for each letter in the string.
         public void ModifyLoop() // string word = "hello world"
         {
-            string greeting = "Hello World";
-            for (int index = 0; index < greeting.Length; index++)
+            string greeting = "hello world";
+            char c = greeting[0];
+
+
+            for (int i = 0; i <= greeting.Length; i++)
             {
-               
-                Console.WriteLine(index);
-               
+                if (i < greeting.Length)
+                {
+                    
+                    Console.WriteLine(i);
+                   
+                    
+                    
+                }
+                
+
+
             }
 
-        // 6. Print out every letter of Hello World one at a time.
+            // 6. Print out every letter of Hello World one at a time.
         }
 
         public void PrintLetter(string word) // string word = "hello world"
