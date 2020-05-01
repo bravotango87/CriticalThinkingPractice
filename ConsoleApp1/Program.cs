@@ -20,13 +20,13 @@ namespace CriticalThinkingExercise
 
             //loops.UserLoop();
 
-            // loops.ModifyLoop();
+            loops.ModifyLoop();
 
             //loops.PrintLetter("hello world");
 
             //loops.PrintEveryOther("hello world");
 
-            loops.DivideByThree("hello world");
+            //loops.DivideByThree("hello world");
             
            
             
