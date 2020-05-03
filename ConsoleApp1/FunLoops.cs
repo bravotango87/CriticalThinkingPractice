@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Tracing;
 using System.Text;
 
 namespace CriticalThinkingExercise
@@ -24,14 +25,14 @@ namespace CriticalThinkingExercise
         public void UserWhile()
         {
             int userInput;
-            Console.WriteLine("Pick a number.");
+            Console.WriteLine("Pick a number");
             userInput = Convert.ToInt32(Console.ReadLine());
-            
-            
             while(userInput < 25)
             {
+                Console.WriteLine(userInput);
                 userInput++;
             }
+
         }
     }
 }

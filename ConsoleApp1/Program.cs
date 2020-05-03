@@ -30,9 +30,9 @@ namespace CriticalThinkingExercise
 
             WhileLoops whileLoops = new WhileLoops();
 
-            whileLoops.WriteWhileLoop();
+            //whileLoops.WriteWhileLoop();
 
-            //whileLoops.UserWhile();
+            whileLoops.UserWhile();
 
             
             
