@@ -32,6 +32,8 @@ namespace CriticalThinkingExercise
 
             whileLoops.WriteWhileLoop();
 
+            //whileLoops.UserWhile();
+
             
             
            

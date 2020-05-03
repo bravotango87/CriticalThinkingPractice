@@ -38,11 +38,11 @@ namespace CriticalThinkingExercise
             }
         }
 
-        // 4a. Write a loop that will run as many times as a user wants (32). Have run forward
+        // 4a. Write a loop that will run forward again.
 
         public void RunLoop()
         {
-            for (int i = 0; i < 33; i++)
+            for(int i = 9; i > 0; i++)
             {
                 Console.WriteLine(i);
             }

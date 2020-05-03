@@ -13,7 +13,24 @@ namespace CriticalThinkingExercise
             int counter = 5;
             while(counter < 25)
             {
+                Console.WriteLine(counter);
                 counter++;
+            }
+
+        }
+
+      // 2. take in user input for the counter
+
+        public void UserWhile()
+        {
+            int userInput;
+            Console.WriteLine("Pick a number.");
+            userInput = Convert.ToInt32(Console.ReadLine());
+            
+            
+            while(userInput < 25)
+            {
+                userInput++;
             }
         }
     }
