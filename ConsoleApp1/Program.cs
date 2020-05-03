@@ -32,7 +32,9 @@ namespace CriticalThinkingExercise
 
             //whileLoops.WriteWhileLoop();
 
-            whileLoops.UserWhile();
+            //whileLoops.UserWhile();
+
+            whileLoops.FourtyTwoLoop();
 
             
             
