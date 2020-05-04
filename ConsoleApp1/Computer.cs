@@ -6,7 +6,7 @@ namespace CriticalThinkingExercise
 {
     class Computer
     {
-      
+
         // member variables (Has a)
 
         RAM ram;
@@ -25,12 +25,21 @@ namespace CriticalThinkingExercise
             hardDrive = new HardDrive(1200, 800);
             motherboard = new Motherboard("china made", cpu, ram, hardDrive, gpu);
         }
-       
 
 
-           
-          
-           // member methods (Can do)
+
+
+
+        // member methods (Can do)
+
+
+        public void BuildComputer()
+        {
+
         }
+
     }
+
 }
+    
+
