@@ -34,7 +34,11 @@ namespace CriticalThinkingExercise
 
             //whileLoops.UserWhile();
 
-            whileLoops.FourtyTwoLoop();
+            //whileLoops.FourtyTwoLoop();
+
+            CalculatorMadness calculatorMadness = new CalculatorMadness();
+
+            calculatorMadness.RunCalculations();
 
             
             
