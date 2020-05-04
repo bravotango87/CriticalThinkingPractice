@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CriticalThinkingExercise
 {
-    class Applications
+    public abstract class Applications
     {
         // member variables (Has a)
 

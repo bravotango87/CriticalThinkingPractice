@@ -15,8 +15,8 @@ namespace CriticalThinkingExercise
 
         public CPU()
         {
-            Manufacturer = "dell";
-            Name = "n/a";
+            Manufacturer = "apple";
+            Name = "i mac";
 
         }
 
