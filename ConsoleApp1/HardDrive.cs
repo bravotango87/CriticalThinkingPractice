@@ -16,7 +16,7 @@ namespace CriticalThinkingExercise
        // constructor (Spawner)
         public HardDrive(double totalStorage, double availableStorage)
         {
-            TotalStorage = totalStorage;
+            TotalStorage = 550;
             AvailableStorage = availableStorage;
             ApplicationsInHardDrive = new List<Applications>();
            
