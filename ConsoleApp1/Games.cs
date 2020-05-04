@@ -17,7 +17,10 @@ namespace CriticalThinkingExercise
 
        // constructor (Spawner)
 
-
+        public Games(double requiredEffectiveMemory)
+        {
+            this.requiredEffectiveMemory = requiredEffectiveMemory;
+        }
 
 
        
