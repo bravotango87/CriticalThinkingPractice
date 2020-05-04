@@ -8,7 +8,14 @@ namespace CriticalThinkingExercise
     {
         static void Main(string[] args)
         {
+            Computer computer = new Computer();
+            computer.BuildComputer();
+
             ForLoops loops = new ForLoops();
+
+            WhileLoops whileLoops = new WhileLoops();
+
+            CalculatorMadness calculatorMadness = new CalculatorMadness();
 
             //loops.DisplayForLoop("i");
 
@@ -28,7 +35,7 @@ namespace CriticalThinkingExercise
 
             //loops.DivideByThree("hello world");
 
-            WhileLoops whileLoops = new WhileLoops();
+
 
             //whileLoops.WriteWhileLoop();
 
@@ -36,7 +43,7 @@ namespace CriticalThinkingExercise
 
             //whileLoops.FourtyTwoLoop();
 
-            CalculatorMadness calculatorMadness = new CalculatorMadness();
+            
 
             //calculatorMadness.GetSum();
 

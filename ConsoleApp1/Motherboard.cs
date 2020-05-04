@@ -29,7 +29,10 @@ namespace CriticalThinkingExercise
         // member methods (Can do)
         
 
+        public void InstallApplication()
+        {
 
+        }
 
 
        
