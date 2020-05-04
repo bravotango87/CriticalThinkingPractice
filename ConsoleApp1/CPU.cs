@@ -22,16 +22,17 @@ namespace CriticalThinkingExercise
 
         // member methods (Can do)
 
-        public void ProcessInstall(Applications app, HardDrive hardDrive, RAM ram)
-        {
+        
 
-        }
-
-        public bool CheckRequirements(Applications app, HardDrive hardDrive, RAM ram)
+        public bool CheckRequirements(Applications app, HardDrive hardDrive, RAM ram, GPU gpu)
         {
             if (ram.TotalGigabytes > app.RequiredRAM && hardDrive.AvailableStorage > app.RequiredStorage)
             {
-                hardDrive.InstallApplication
+                hardDrive.ProcessInstall(app, hardDrive, ram, gpu);
+            }
+            else
+            {
+                Console.WriteLine("Does not meet requirements to run");
             }
         }
     }
