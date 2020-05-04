@@ -27,10 +27,7 @@ namespace CriticalThinkingExercise
         }
 
         // member methods (Can do)
-        public void InstallApplication(Applications newApp, HardDrive hardDrive, RAM ram, GPU gpu)
-        {
-            hardDrive.ApplicationsInHardDrive.Add(newApp);
-        }
+        
 
 
 
