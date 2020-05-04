@@ -28,7 +28,7 @@ namespace CriticalThinkingExercise
             processor = new CPU("IBM", "cpu1");
             storage = new HardDrive(1200, 900);
             motherboard = new Motherboard("Intel", temporaryMemory, processor, storage, graphics);
-            applications = new Applications("")
+            
         }
 
 

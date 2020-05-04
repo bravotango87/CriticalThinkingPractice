@@ -9,20 +9,20 @@ namespace CriticalThinkingExercise
         // member variables (Has a)
 
 
-        public string ApplicationName;
-        public string ApplicationType;
-        public double RequiredRAM;
-        public double RequiredStorage;
+        public string applicationName;
+        public string applicationType;
+        public double requiredRAM;
+        public double requiredStorage;
 
         // constructor (Spawner)
 
 
         public Applications()
         {
-            ApplicationName = "Slack";
-            ApplicationType = "Messaging service";
-            RequiredRAM = 4.0; // in gigabytes
-            RequiredStorage = 0.512; // in gigabytes
+            applicationName = "Slack";
+            applicationType = "Messaging service";
+            requiredRAM = 4.0; // in gigabytes
+            requiredStorage = 0.512; // in gigabytes
         }
 
         // member methods (Can do)

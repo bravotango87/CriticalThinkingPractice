@@ -24,11 +24,11 @@ namespace CriticalThinkingExercise
 
         
 
-        public bool CheckRequirements(Applications app, HardDrive hardDrive, RAM ram, GPU gpu)
+        public void CheckRequirements(Applications applications, HardDrive hardDrive, RAM ram, GPU gpu)
         {
-            if (ram.TotalGigabytes > app.RequiredRAM && hardDrive.AvailableStorage > app.RequiredStorage)
+            if (ram.totalGigabytes >= applications.requiredRAM && hardDrive.availableStorage >= applications.requiredStorage)
             {
-                hardDrive.ProcessInstall(app, hardDrive, ram, gpu);
+                hardDrive.ProcessInstall(applications, hardDrive, ram, gpu);
             }
             else
             {
