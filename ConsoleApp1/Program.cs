@@ -28,7 +28,7 @@ namespace CriticalThinkingExercise
 
             //loops.DivideByThree("hello world");
 
-            //WhileLoops whileLoops = new WhileLoops();
+            WhileLoops whileLoops = new WhileLoops();
 
             //whileLoops.WriteWhileLoop();
 
@@ -38,7 +38,7 @@ namespace CriticalThinkingExercise
 
             CalculatorMadness calculatorMadness = new CalculatorMadness();
 
-            calculatorMadness.GetSum();
+            //calculatorMadness.GetSum();
 
             
             
