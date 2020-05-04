@@ -25,7 +25,10 @@ namespace CriticalThinkingExercise
         {
             graphics = new GPU("AMD", 16);
             temporaryMemory = new RAM(32, "Kingston");
-            processor = new CPU()
+            processor = new CPU("IBM", "cpu1");
+            storage = new HardDrive(1200, 900);
+            motherboard = new Motherboard("Intel", temporaryMemory, processor, storage, graphics);
+            applications = new Applications("")
         }
 
 
