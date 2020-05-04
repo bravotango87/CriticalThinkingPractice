@@ -4,9 +4,11 @@ using System.Text;
 
 namespace CriticalThinkingExercise
 {
-    public class Games : Applications
+    public class Games : Applications 
     {
         // member variables (Has a)
+
+        double requiredEffectiveMemory;
 
 
 
