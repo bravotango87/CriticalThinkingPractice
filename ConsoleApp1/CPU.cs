@@ -13,12 +13,12 @@ namespace CriticalThinkingExercise
 
         // constructor (Spawner)
 
-        public CPU()
+        public CPU (string manufacturer, string name)
         {
-            Manufacturer = "apple";
-            Name = "i mac";
-
+            this.Manufacturer = manufacturer;
+            this.Name = name;
         }
+        
 
         // member methods (Can do)
 

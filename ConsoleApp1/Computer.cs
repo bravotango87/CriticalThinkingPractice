@@ -9,21 +9,23 @@ namespace CriticalThinkingExercise
 
         // member variables (Has a)
 
-        RAM ram;
-        CPU cpu;
-        GPU gpu;
-        HardDrive hardDrive;
-        Motherboard motherboard;
+        public GPU graphics;
+        public RAM temporaryMemory;
+        public CPU processor;
+        public HardDrive storage;
+        public Motherboard motherboard;
+        public Applications applications;
+        public Games games;
+        public string manufacturer;
+        
 
 
         // constructor (Spawner)
         public Computer()
         {
-            ram = new RAM("short term memory");
-            cpu = new CPU("Apple", "MacBook");
-            gpu = new GPU("Intel", 32);
-            hardDrive = new HardDrive(1200, 800);
-            motherboard = new Motherboard("china made", cpu, ram, hardDrive, gpu);
+            graphics = new GPU("AMD", 16);
+            temporaryMemory = new RAM(32, "Kingston");
+            processor = new CPU()
         }
 
 
