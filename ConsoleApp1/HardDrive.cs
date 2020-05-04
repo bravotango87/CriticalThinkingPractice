@@ -24,9 +24,9 @@ namespace CriticalThinkingExercise
 
         // member methods (Can do)
 
-        public void ProcessInstall(Applications app, HardDrive hardDrive, RAM ram, GPU gpu)
+        public void ProcessInstall(Applications applications, HardDrive hardDrive, RAM ram, GPU gpu)
         {
-            hardDrive.ApplicationsInHardDrive.Add(app);
+            hardDrive.ApplicationsInHardDrive.Add(applications);
         }
 
 
