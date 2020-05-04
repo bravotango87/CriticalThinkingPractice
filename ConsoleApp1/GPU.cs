@@ -8,14 +8,18 @@ namespace CriticalThinkingExercise
     {
         // member variables (Has a)
 
-        public string Manufacturer;
-        public double EffectiveMemory;
+        public string manufacturer;
+        public double effectiveMemory;
 
 
 
        // constructor (Spawner)
 
-
+        public GPU(string manufacturer, double effectiveMemory)
+        {
+            this.manufacturer = manufacturer;
+            this.effectiveMemory = effectiveMemory;
+        }
 
       // member methods (Can do)
 
