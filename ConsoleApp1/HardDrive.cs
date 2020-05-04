@@ -8,16 +8,16 @@ namespace CriticalThinkingExercise
     {
         // member variables (Has a)
 
-        public double TotalStorage;
-        public double AvailableStorage;
+        public double totalStorage;
+        public double availableStorage;
         public List<Applications> ApplicationsInHardDrive;
 
 
        // constructor (Spawner)
         public HardDrive(double totalStorage, double availableStorage)
         {
-            TotalStorage = 550;
-            AvailableStorage = availableStorage;
+            this.totalStorage = totalStorage;
+            this.availableStorage = availableStorage;
             ApplicationsInHardDrive = new List<Applications>();
            
         }
