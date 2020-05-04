@@ -10,16 +10,26 @@ namespace CriticalThinkingExercise
 
         public double TotalStorage;
         public double AvailableStorage;
-        Public List<Applications> ApplicationsInHardDrive;
+        public List<Applications> ApplicationsInHardDrive;
 
-        public HardDrive()
+
+       // constructor (Spawner)
+        public HardDrive(double totalStorage, double availableStorage)
         {
-            TotalStorage = 11.56;
-            AvailableStorage = 32.56;
+            TotalStorage = totalStorage;
+            AvailableStorage = availableStorage;
+            ApplicationsInHardDrive = new List<Applications>();
            
         }
 
-               
+        // member methods (Can do)
+
+        public void InstallApplication(Applications newApp, HardDrive hardDrive, RAM ram, GPU gpu)
+        {
+            hardDrive.ApplicationsInHardDrive.Add(newApp);
+        }
+
+
 
     }
 

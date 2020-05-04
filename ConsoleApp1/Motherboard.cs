@@ -15,7 +15,7 @@ namespace CriticalThinkingExercise
         public HardDrive Storage;
         public GPU Graphics;
         
-       
+       // constructor (Spawner)
 
         public Motherboard(string manufacturer, RAM ram, CPU cpu, HardDrive hardDrive, GPU gpu)
         {
@@ -26,10 +26,7 @@ namespace CriticalThinkingExercise
             Graphics = gpu;
         }
 
-        public void InstallApplication(Applications newApp)
-        {
-
-        }
+        
             
     }
 }
