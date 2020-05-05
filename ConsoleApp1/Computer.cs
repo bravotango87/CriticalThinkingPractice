@@ -40,7 +40,7 @@ namespace CriticalThinkingExercise
 
         public void BuildComputer()
         {
-
+            processor.CheckRequirements(Applications applications, HardDrive hardDrive, RAM ram, GPU gpu);
         }
 
     }

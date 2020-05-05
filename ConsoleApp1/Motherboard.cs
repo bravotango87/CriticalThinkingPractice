@@ -29,9 +29,9 @@ namespace CriticalThinkingExercise
         // member methods (Can do)
         
 
-        public void ProcessInstall(Applications applications) // have this method call from the CPU
+        public void ProcessInstall() // have this method call from the CPU
         {
-
+            Processor.CheckRequirements(Applications applications, HardDrive hardDrive, RAM ram, GPU gpu);
         }
 
 
