@@ -29,7 +29,7 @@ namespace CriticalThinkingExercise
         // member methods (Can do)
         
 
-        public void InstallApplication()
+        public void ProcessInstall(Applications applications) // have this method call from the CPU
         {
 
         }
